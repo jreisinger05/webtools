@@ -1,0 +1,62 @@
+/* 
+NEW
+#FFFFFF white
+#D60ACF magenta
+#EB5D7E salmon
+#FE8E75 peach
+#47170D brown
+
+OLD?
+#FFEAD8 cream
+#E8988A dark cream
+#9B177E purple
+#2A1458 dark purple
+*/
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffead8 0%, #e88ac1 100%);
+    color: #47170D;
+    line-height: 1.4;
+}
+
+header {
+    font-family: "Silkscreen", sans-serif;
+    background: #9b177e;
+    color: #FE8E75;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Silkscreen", sans-serif;
+    background: #FE8E75;
+    color:#571564;
+    padding: 1rem 0;
+}
+
+h3 {
+    font-family: "Silkscreen", sans-serif;
+    background: #FE8E75;
+    color: #9b177e;
+    padding: 0.5rem;
+}
+
+nav {
+    background: #EB5D7E;
+    color:#47170D;
+    padding: 0.5rem;
+}
+
+footer {
+    background: #EB5D7E;
+    color: #47170D;
+    padding: 0.01rem 0;
+}
+
+a:link, a:visited { color: #2A1458; }
+a:hover { color: rgb(196, 0, 163); }
+a:active { color: rgb(215, 112, 255); }

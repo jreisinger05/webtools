@@ -1,17 +1,3 @@
-/* 
-NEW
-#FFFFFF white
-#D60ACF magenta
-#EB5D7E salmon
-#FE8E75 peach
-#47170D brown
-
-OLD?
-#FFEAD8 cream
-#E8988A dark cream
-#9B177E purple
-#2A1458 dark purple
-*/
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
 body {
@@ -59,3 +45,8 @@ footer {
 a:link, a:visited { color: #2A1458; }
 a:hover { color: rgb(196, 0, 163); }
 a:active { color: rgb(215, 112, 255); }
+
+fluid-image {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,92 @@
+html, body, * {
+    box-sizing: border-box;
+}
+
+/* NOTE:
+padding parameters in order: top right bottom left */
+
+/* was under "body" in style.css btw */
+.main-content { 
+    padding: 0;
+    width: 60vw;
+    max-width: 960px;
+    line-height: 1.4;
+    margin: 0 30vw 0 10vw;
+}
+
+.page-header {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.heading-2 {
+    padding: 1rem 0;
+}
+
+.heading-3 {
+    padding: 0.5rem;
+}
+
+.page-footer {
+    padding: 0.01rem 0;
+}
+
+.sidebar {
+    background: #EB5D7E;
+    position: sticky;
+    top: 3rem;
+    overflow: hidden;
+    width: 20vw;
+    padding: 0.5rem;
+    margin: 1rem 4rem 1rem 0;
+    margin-top: 1rem;
+    margin-left: 8vw;
+    margin-right: clamp(2vw, 5%, 8vw); 
+    float: right;
+    scroll-margin-top: 1rem;
+}
+
+.main-nav {
+    display: block;
+    width: 100%;
+    padding: .5rem 0 .5rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.figure-right {
+    max-width: 100%;
+    height: auto;
+    float: right;
+    padding: 0 0 0 2rem; 
+}
+
+.figure-left {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    padding: 0 2rem 0 0;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.logo {
+    position: absolute;
+    top: 12vw;
+    right: 16vw;
+    width: clamp(80px, 10vw, 150px);
+    height: auto;
+}
+
+.bordered-box {
+    border: 1px solid #FE8E75;
+    padding: 1rem;
+    margin: 1rem 0;
+}

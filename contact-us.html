@@ -39,12 +39,53 @@
      </nav>
     <header class="page-header">
         <h1>Contact Us</h1>
+        <img src="images/logo.png" alt="Logo" class="logo">
     </header>
     <!-- Main content -->
-    <main class="main-content">
-        <section>
+    <main class="contact-form">
+        <!-- <section>
             <p>This is the page where the contact information goes. You can use it to contact me. Or, us. I guess. I guess there's kind of an "us" even though it's moreso a "me." I AM in a class, after all. This is a placeholder, by the way. It's probably easy to tell that, but I figure I should specify. For the assignment. The assignment for the class that I'm in. Anyway, my email's at the bottom of the page. On, like, every page. It's part of the footer. So. Yeah. If you wanna email me, have fun, I might check it. Maybe.</p>
-        </section>
+        </section> -->
+
+        <!-- Accessible Contact Us Form -->
+        <form action="success.html" method="get">
+            <legend class="heading-2"">Let's talk!</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Radio Button -->
+            <legend class="heading-2">How would you prefer to contact me?</legend>
+            <label><input type="radio" name="contactMethod" value="email" class="inline-control" checked> Email</label>
+            <label><input type="radio" name="contactMethod" value="phone" class="inline-control"> Phone</label>
+
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message" required>
+
+            <!-- Checkbox -->
+            <label>
+                <input type="checkbox" name="subscribe" class="inline-control"> Subscribe to newsletter
+            </label>
+
+            <!-- Select -->
+            <label for="topic">Topic:</label>
+            <select id="topic" name="topic">
+              <option value="choose an option">-*Please Choose an Option*-</option>
+              <option value="just greeting">Just Saying "Hi"</option>
+              <option value="talkin smack">Talkin' Smack</option>
+              <option value="class">Webtools Class</option>
+              <option value="favorite game">Favorite Game</option>
+              <option value="other">Something Else</option>
+            </select>
+            
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+          </form>
+          
     </main>
 
     <footer class="page-footer">

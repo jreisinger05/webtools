@@ -14,6 +14,14 @@ padding parameters in order: top right bottom left */
     margin: 0 30vw 0 10vw;
 }
 
+.contact-form { 
+    padding: 0;
+    width: 60vw;
+    max-width: 960px;
+    line-height: 1.4;
+    margin: auto;
+}
+
 .page-header {
     padding: 1rem 0;
     text-align: center;
@@ -90,3 +98,85 @@ padding parameters in order: top right bottom left */
     padding: 1rem;
     margin: 1rem 0;
 }
+
+input, textarea, select {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+
+  legend {
+    font-family: "Silkscreen", sans-serif;
+    color:#571564;
+  }
+
+  input[type="radio"],input[type="checkbox"] {
+    margin-right: 0.5rem;
+    width: auto;
+  }
+
+  .inline-control {
+    display: inline;
+    width: auto;
+    margin: 0 1em 0 0;
+  }
+  
+  input[type="submit"], input[type="reset"] {
+    width: auto;
+    padding: 0.5em 1em;
+    background-color: #9b177e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #2A1458;
+  }
+
+  
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table caption {
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr {
+    border-bottom: thin solid #47170D;
+  }
+  
+  thead tr {
+    background-color: #9b177e;
+    color: cornsilk;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #FE8E75;
+  }
+  
+  tbody tr:hover {
+    background-color: #EB5D7E;
+  }
+  
+  
+  

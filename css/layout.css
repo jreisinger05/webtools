@@ -127,6 +127,11 @@ padding parameters in order: top right bottom left */
     height: auto;
 }
 
+.fluid-image {
+  width: auto;
+  height: auto;
+}
+
 .bordered-box {
     border: 1px solid #FE8E75;
     padding: 1rem;

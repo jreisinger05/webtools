@@ -39,6 +39,36 @@ padding parameters in order: top right bottom left */
     padding: 0.01rem 0;
 }
 
+.footer-nav {
+  list-style-type: none;
+}
+
+.flex-footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
+  text-align: center;
+  padding: 0.01rem 2rem;
+  margin-top: 1rem;
+}
+
+.flex-footer-me {
+  flex: 1 1 auto;
+  order: 1;
+}
+
+.flex-footer-important {
+  flex: 1 1 auto;
+  order: 2;
+}
+
+.flex-footer-sources {
+  flex: 1 1 auto;
+  order: 3;
+}
+
 .sidebar {
     background: #EB5D7E;
     position: sticky;
@@ -55,7 +85,11 @@ padding parameters in order: top right bottom left */
 }
 
 .main-nav {
-    display: block;
+    display: flex;
+    justify-content:space-between;
+    align-items: left;
+    flex-flow: row wrap;
+
     width: 100%;
     padding: .5rem 0 .5rem 0;
     position: fixed;
@@ -97,6 +131,16 @@ padding parameters in order: top right bottom left */
     border: 1px solid #FE8E75;
     padding: 1rem;
     margin: 1rem 0;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  flex: 1 1 30%;
+  min-width: 200px;
 }
 
 input, textarea, select {

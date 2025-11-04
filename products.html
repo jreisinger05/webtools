@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jackson Reisinger">
     <meta name="description" content="This page includes content that isn't my own. Image sources are included at the bottom of the page.">
     
-    <title>Contact Success!</title>
+    <title>Products</title>
 
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
@@ -29,7 +29,9 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/products.css">
 </head>
+
 <body>
     <!-- Header -->
     <nav class="main-nav">
@@ -41,49 +43,60 @@
         <a href="sign-in.html">Sign In</a> |
     </nav>
     <header class="page-header">
-        <h1>Success!</h1>
+        <h1>Placeholders for Sale</h1>
         <img src="images/logo.png" alt="Logo" class="logo">
     </header>
     <!-- Main content -->
-    <main class="contact-form">
-        <!-- <section>
-            <p>This is the page where the contact information goes. You can use it to contact me. Or, us. I guess. I guess there's kind of an "us" even though it's moreso a "me." I AM in a class, after all. This is a placeholder, by the way. It's probably easy to tell that, but I figure I should specify. For the assignment. The assignment for the class that I'm in. Anyway, my email's at the bottom of the page. On, like, every page. It's part of the footer. So. Yeah. If you wanna email me, have fun, I might check it. Maybe.</p>
-        </section> -->
-
-        <h3>We've recieved your message! Response will be provided in due time.</h3>
-        <table>
-            <caption>In the meantime, treat yourself:</caption>
-            <thead>
-            <tr>
-                <th>&nbsp;</th>
-                <th scope="col" abbr="Combo" id="col1">As Combo</th>
-                <th scope="col" abbr="Alone" id="col2">Alone</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">Dave's</th>
-                <td headers="col1">$8.19</td>
-                <td headers="col2">$8.19</td>
-            </tr>
-            <tr>
-                <th scope="row">Baconator</th>
-                <td headers="col1">$8.19</td>
-                <td headers="col2">$11.49</td>
-            </tr>
-            <tr>
-                <th scope="row">10 pc. Nugget</th>
-                <td headers="col1">$10.99</td>
-                <td headers="col2">$5.50</td>
-            </tr>
-            <tr>
-                <th scope="row">Chicken Sandwich</th>
-                <td headers="col1">$9.39</td>
-                <td headers="col2">$8.19</td>
-            </tr>
-            </tbody>
-        </table>
-    </main>
+     <main class="products-grid">
+        <div class="product-card featured-product">
+            <img class="product-image" src="images/products/Placeholder_view_vector.svg" alt="PLACEHOLDER">
+            <div>
+                <h2>Image Vector</h2>
+                <p>A general, generic vector. You can't go wrong here!</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-card second-row-product">
+            <img class="product-image" src="images/products/Placeholder_Person_with_black_tie.jpg" alt="PLACEHOLDER">
+            <div>
+                <h2>Suited Silhouette</h2>
+                <p>A dapper silhouette to hold the place of someone's almost-as-handsome portrait.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-card second-row-product">
+            <img class="product-image" src="images/products/No-Image-Placeholder-banner.svg" alt="PLACEHOLDER">
+            <div>
+                <h2>Image of Nothing</h2>
+                <p>An image to let people know it doesn't exist. Paradoxical in its very nature, and beautiful in its irony.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-card third-row-product">
+            <img class="product-image" src="images/products/Temporary-placeholder-photo.jpg" alt="PLACEHOLDER">
+            <div>
+                <h2>The Omen</h2>
+                <p>Time is fleeting. The clock is ticking. This placeholder is fated to be replaced, and though you will certainly outlast it, it will serve as a reminder of your own mortality.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-card third-row-product">
+            <img class="product-image" src="images/products/Placeholder_no_text.svg" alt="PLACEHOLDER">
+            <div>
+                <h2>Lame Silhouette</h2>
+                <p>A generic silhouette to hold the place of someone's certainly-more-handsome portrait.</p>
+                <a href="#"" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-card third-row-product">
+            <img class="product-image" src="images/products/Car_placeholder.png" alt="PLACEHOLDER">
+            <div>
+                <h2>Missing Car</h2>
+                <p>Multipurpose image. For ultra-specific placeholding or for help filing specific police reports.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+     </main>
 
     <footer class="flex-footer">
         <div class="flex-footer-me">
@@ -97,11 +110,14 @@
             </ul>
         </div>
 
+
         <div class="flex-footer-sources">
             <ul class="footer-nav">
-                <a href="https://order.wendys.com/category/137/combos?lang=en_US">Wendy's Menu</a>
+                <li><a href="https://commons.wikimedia.org/wiki/Main_Page">Product Images Source</a></li>
+
             </ul>
         </div>
     </footer>
 </body>
+
 </html>

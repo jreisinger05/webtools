@@ -6,11 +6,11 @@ body {
     color: #47170D;
 }
 
-header {
+header, h1 {
     font-family: "Silkscreen", sans-serif;
     background: #9b177e;
     color: #FE8E75;
-    font-size: clamp(2.5vw, 100%, 4vw);
+    font-size: clamp(5.5vw, 2.5vw, 100%);
 }
 
 h2 {

@@ -27,18 +27,20 @@
     <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css"> 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/layout.css">
 </head>
 <body>
     <!-- Header -->
     <nav class="main-nav">
-        | <a href="index.html">Home</a> |
-        <a href="about-us.html">About Us</a> |
-        <a href="contact-us.html">Contact Us</a> |
-        <a href="team.html">Team</a> |
-        <a href="products.html">Products</a> |
-        <a href="sign-in.html">Sign In</a> |
+        | <a href="index.html" class="w3-btn w3-purple">Home</a> |
+        <a href="about-us.html" class="w3-btn w3-purple">About Us</a> |
+        <a href="contact-us.html" class="w3-btn w3-purple">Contact Us</a> |
+        <a href="team.html" class="w3-btn w3-purple">Team</a> |
+        <a href="products.html" class="w3-btn w3-purple">Products</a> |
+        <a href="sign-in.html" class="w3-btn w3-purple">Sign In</a> |
     </nav>
     <header class="page-header">
         <h1>Contact Us</h1>
@@ -51,31 +53,31 @@
         </section> -->
 
         <!-- Accessible Contact Us Form -->
-        <form action="success.html" method="get">
+        <form action="success.html" method="get" class="w3-container">
             <legend>Let's talk!</legend>
 
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input class="w3-input w3-border w3-hover-pale-yellow" type="text" id="name" name="name" required>
           
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input class="w3-input w3-border w3-hover-pale-yellow" type="email" id="email" name="email" required>
 
             <!-- Radio Button -->
             <legend>How would you prefer to contact me?</legend>
-            <label><input type="radio" name="contactMethod" value="email" class="inline-control" checked> Email</label>
-            <label><input type="radio" name="contactMethod" value="phone" class="inline-control"> Phone</label>
+            <label><input class="w3-radio" type="radio" name="contactMethod" value="email" class="inline-control" checked> Email</label>
+            <label><input class="w3-radio" type="radio" name="contactMethod" value="phone" class="inline-control"> Phone</label>
 
             <label for="message">Message:</label>
-            <input type="text" id="message" name="message" required>
+            <input class="w3-input w3-border w3-hover-pale-yellow" type="text" id="message" name="message" required>
 
             <!-- Checkbox -->
             <label>
-                <input type="checkbox" name="subscribe" class="inline-control"> Subscribe to newsletter
+                <input class="w3-check" type="checkbox" name="subscribe" class="inline-control"> Subscribe to newsletter
             </label>
 
             <!-- Select -->
             <label for="topic">Topic:</label>
-            <select id="topic" name="topic">
+            <select class="w3-select w3-border w3-hover-pale-yellow" id="topic" name="topic">
               <option value="choose an option">-*Please Choose an Option*-</option>
               <option value="just greeting">Just Saying "Hi"</option>
               <option value="talkin smack">Talkin' Smack</option>

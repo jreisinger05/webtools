@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
+.accent {
+    color: #FFF;
+    background-color: #9b177e;
+}
+
+.text-accent {
+    color: #9b177e;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to bottom, #ffead8 0%, #e88ac1 100%);
